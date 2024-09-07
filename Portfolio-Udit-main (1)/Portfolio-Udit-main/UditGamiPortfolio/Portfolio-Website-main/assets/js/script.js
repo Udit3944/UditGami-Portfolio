@@ -59,7 +59,7 @@ $(document).ready(function () {
 document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
-            document.title = "Portfolio | UditGami";
+            document.title = "Portfolio | UditGami Portfolio";
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {

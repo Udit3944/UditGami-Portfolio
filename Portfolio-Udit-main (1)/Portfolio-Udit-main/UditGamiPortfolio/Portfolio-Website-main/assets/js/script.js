@@ -61,7 +61,7 @@ $(document).ready(function () {
   });
   // <!-- emailjs to mail contact form data -->
 });
-
+HEAD;
 document.addEventListener("visibilitychange", function () {
   if (document.visibilityState === "visible") {
     document.title = "Portfolio | Udit Gami";
@@ -71,6 +71,18 @@ document.addEventListener("visibilitychange", function () {
     $("#favicon").attr("href", "assets/images/favhand.png");
   }
 });
+
+document.addEventListener("visibilitychange", function () {
+  if (document.visibilityState === "visible") {
+    document.title = "Portfolio | UditGami Portfolio";
+    $("#favicon").attr("href", "assets/images/favicon.png");
+  } else {
+    document.title = "Come Back To Portfolio";
+    $("#favicon").attr("href", "assets/images/favhand.png");
+  }
+});
+
+bad6ed8c4348c9e7627e7117286bc926a655b6c9;
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
@@ -256,5 +268,10 @@ srtop.reveal(".experience .timeline", { delay: 400 });
 srtop.reveal(".experience .timeline .container", { interval: 400 });
 
 /* SCROLL CONTACT */
+HEAD;
 srtop.reveal(".contact .container", { delay: 400 });
 srtop.reveal(".contact .container .form-group", { delay: 400 });
+
+srtop.reveal(".contact .container", { delay: 400 });
+srtop.reveal(".contact .container .form-group", { delay: 400 });
+bad6ed8c4348c9e7627e7117286bc926a655b6c9;
